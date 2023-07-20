@@ -1,0 +1,257 @@
+/* 
+Team members : Swachita Gurung , Rajan Kunwar,  Ishan Subedi 
+*/
+*{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+.container{
+    width: 85%;
+    margin: 0 auto 0 auto;
+    padding:1%;
+
+}
+.space-fix{
+    clear:both;
+    float: none;
+}
+.img-responsive{
+    width:100%;
+}
+.img-curve{
+    border-radius: 16px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+input{
+    width: 500px;
+    border: solid;
+}
+
+.hrr{
+    height: 3px;
+    color: grey;
+    background-color: black;
+
+}
+.btn-primary{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.btn-secondary{
+    background-color: #d31717; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+
+h3{
+    font-size:  2rm;
+
+}
+h2{
+    color:#232933 ;
+    font-size: 2rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 30px;
+    left: 40%;
+}
+
+
+/* for nabbar */
+.image{
+    margin-top: 3px;
+    width: 25%;
+    float: left;
+}
+
+.text-right{
+    text-align: right;
+}
+.nab-menu{
+    line-height: 30px;
+}
+.nab-menu ul{
+    list-style: none;
+}
+.nab-menu ul li{
+    display: inline;
+    margin-right: 5px;
+    padding: 1%;
+    font-weight: bold;
+    
+}
+.search-box{
+   
+    width: 20%;
+    float: left;
+}
+
+/* for shoe-search */
+.shoe-search{
+    background-image: url(../image/logo/search.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:6% 0;
+}
+.shoe-search input[type="search"]{
+    width: 5%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* for Catagories */
+.catagories{
+    padding: 4% 0;
+
+}
+.float-text{
+    text-align:auto;
+    width: 60%;
+    size: 70%;
+
+}
+.box{
+
+    width: 29%;
+    float: left;
+    margin: 2%;
+}
+
+
+/* for menu */
+.menu{
+    background-color: rgb(214, 214, 214);
+    padding: 4%;
+}
+.shoe_menu{
+    
+    width: 41%;
+    margin:1%;
+    float: left;
+    padding: 2%;
+    background-color: white;
+    border-radius:15px ;
+}
+.shoe_menu_img{
+    width: 20%;
+    float: left;
+}
+.shoe_menu_disc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+.price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+
+}
+.detail{
+    font-size: 1rem;
+    color: #232933;
+}
+
+/* for social */
+.socials ul{
+    list-style-type: none;
+}
+.socials ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* for Table */
+table, td, th {
+  border: 1px solid black;
+
+}
+table {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th {
+  text-align: center;
+    padding: 15px;
+}
+td {
+  padding: 15px;
+}
+.login{
+    padding-left: 9%;
+    align-content: center;
+}
+
+.total{
+    padding-left: 15%;
+}
+
+/* for moile */
+@media only screen and (max-width:768px){
+.image{
+    margin-left: 40%;
+    width: 90%;
+    float: none;
+}
+.nab-menu ul{
+    list-style: none;
+    text-align: center;
+}
+.shoe-search input[type="search"]{
+    width: 90%;
+    margin-bottom: 5%;
+    padding: 2%;
+}
+.button{
+    padding: 2%;
+    width: 80%;
+}
+.box{
+   
+    width: 90%;
+    margin: 4% auto;
+    float: left;
+    margin: 2%;
+}
+.float-text{
+    text-align:auto;
+    width: 60%;
+    size: 70%;
+}
+.shoe_menu{
+    padding: 5% 0;
+    width: 90%;
+}
+
+
+}
